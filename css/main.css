@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(#000, #222);
+    height: 97.9vh;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content1 {
+    background-color: #aaa;
+    width: 40%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.content2 {
+    background-color: #aaa;
+    width: 40%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}

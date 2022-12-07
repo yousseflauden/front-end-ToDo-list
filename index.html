@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.3/dist/css/bootstrap.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="content1" style="color:white;">
+            <div>
+                <form name="myForm" action="" onsubmit="return validateForm()" method="post" required>
+                    <label for="name">Task Name:</label>
+                    <input type="text" name="fname" id="name" required>
+            </div>
+            <div>
+                <form name="myDate" onsubmit="return validateDate()" method="post" required>
+                    <label for="date">Date Name:</label>
+                    <input type="datetime-local" name="fDate" id="date" required>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-outline-primary" >
+        </div>
+        <div class="content2" name="content2" style="color:white;">
+            <h1>Tasks List</h1>
+            <div id="typing" name="typing">
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap-5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
